@@ -28,6 +28,14 @@ Java Oracle - http://www.webupd8.org/2012/09/install-oracle-java-8-in-ubuntu-via
   sudo apt-get update
   sudo apt-get install oracle-java8-installer [soon to be java 9]
   
+Android Studio/ADB/SDK http://askubuntu.com/questions/318246/complete-installation-guide-for-android-sdk-adt-bundle-on-ubuntu
+  sudo add-apt-repository ppa:ubuntu-desktop/ubuntu-make
+  sudo apt-get update
+  sudo apt-get install ubuntu-make [cool new utility aimed at developers]
+  umake android
+  [then cd to the created folder ../android-studio/bin and run ./studio.sh]
+  [android-studio will then install necessary SDK tools]
+
 Googles golang
   sudo apt-get install golang
   echo "export GOPATH=$HOME/Code/go" >> ~/.bashrc
