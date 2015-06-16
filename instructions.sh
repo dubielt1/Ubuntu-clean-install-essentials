@@ -19,6 +19,10 @@ Latest version of gcc https://launchpad.net/~ubuntu-toolchain-r/+archive/ubuntu/
   sudo ln -s /usr/bin/g++-4.9 /usr/bin/g++
   [test with gcc --version]
   
+  [To add gcc 4.9s new diagnostic coloring]
+    echo "export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'" >> ~/.bashrc
+    source ~/.bashrc
+  
 Java Oracle - http://www.webupd8.org/2012/09/install-oracle-java-8-in-ubuntu-via-ppa.html
   sudo add-apt-repository ppa:webupd8team/java
   sudo apt-get update
