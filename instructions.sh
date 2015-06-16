@@ -12,6 +12,12 @@ Latest version of gcc https://launchpad.net/~ubuntu-toolchain-r/+archive/ubuntu/
   sudo add-apt-repository ppa:ubuntu-toolchain-r/test
   sudo apt-get update
   sudo apt-get install g++-4.9 [5.0 has been released]
+  [now to update the symlink of gcc from previous version to new version]
+  sudo rm /usr/bin/gcc
+  sudo rm /usr/bin/g++
+  sudo ln -s /usr/bin/gcc-4.9 /usr/bin/gcc
+  sudo ln -s /usr/bin/g++-4.9 /usr/bin/g++
+  [test with gcc --version]
   
 Java Oracle - http://www.webupd8.org/2012/09/install-oracle-java-8-in-ubuntu-via-ppa.html
   sudo add-apt-repository ppa:webupd8team/java
