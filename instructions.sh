@@ -12,6 +12,13 @@ Java Oracle - http://www.webupd8.org/2012/09/install-oracle-java-8-in-ubuntu-via
   sudo add-apt-repository ppa:webupd8team/java
   sudo apt-get update
   sudo apt-get install oracle-java8-installer [soon to be java 9]
+  
+Googles golang
+  sudo apt-get install golang
+  echo "export GOPATH=$HOME/Code/go" >> ~/.bashrc
+  echo "export PATH=$PATH:$HOME/Code/go/bin:/usr/local/go/bin" >> ~/.bashrc
+  source ~/.bashrc [reads environment variables into current session]
+  
 
 nodejs/npm/bower/grunt-cli/yo/generator-angular/generator-karma  https://github.com/yeoman/generator-angular
   curl -sL https://deb.nodesource.com/setup_0.12 | sudo bash -
