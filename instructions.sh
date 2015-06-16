@@ -7,6 +7,11 @@ System
   sudo apt-get install eclipse
   sudo apt-get install curl
   sudo apt-get install vim
+  
+Java Oracle - http://www.webupd8.org/2012/09/install-oracle-java-8-in-ubuntu-via-ppa.html
+  sudo add-apt-repository ppa:webupd8team/java
+  sudo apt-get update
+  sudo apt-get install oracle-java8-installer [soon to be java 9]
 
 nodejs/npm/bower/grunt-cli/yo/generator-angular/generator-karma  https://github.com/yeoman/generator-angular
   curl -sL https://deb.nodesource.com/setup_0.12 | sudo bash -
